@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         TextView tvContents = (TextView)findViewById(R.id.tv_contents);
         ImageView ivGlide = (ImageView)findViewById(R.id.iv_glide);
         signInButton = findViewById(R.id.signInButton);
