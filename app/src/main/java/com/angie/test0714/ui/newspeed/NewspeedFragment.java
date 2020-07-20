@@ -1,4 +1,4 @@
-package com.angie.test0714.ui.timeline;
+package com.angie.test0714.ui.newspeed;
 
 import androidx.lifecycle.ViewModelProviders;
 
@@ -14,25 +14,25 @@ import android.view.ViewGroup;
 
 import com.angie.test0714.R;
 
-public class TimelineFragment extends Fragment {
+public class NewspeedFragment extends Fragment {
 
-    private TimelineViewModel mViewModel;
+    private NewspeedViewModel mViewModel;
 
-    public static TimelineFragment newInstance() {
-        return new TimelineFragment();
+    public static NewspeedFragment newInstance() {
+        return new NewspeedFragment();
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.timeline_fragment, container, false);
+        return inflater.inflate(R.layout.newspeed_fragment, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(TimelineViewModel.class);
+        mViewModel = ViewModelProviders.of(this).get(NewspeedViewModel.class);
         // TODO: Use the ViewModel
     }
 

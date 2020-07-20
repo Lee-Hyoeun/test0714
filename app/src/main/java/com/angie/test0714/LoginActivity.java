@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_store:
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+                Intent intent = new Intent(this, NavidrawAcivity.class);
                 startActivity(intent);
                 break;
             case R.id.btn_logout:

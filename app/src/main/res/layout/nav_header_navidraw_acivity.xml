@@ -15,7 +15,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="209dp"
+        android:layout_width="190dp"
         android:layout_height="134dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,33 +46,33 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="153dp"
-        android:layout_height="136dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
+        android:layout_width="66dp"
+        android:layout_height="132dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/linearLayout2"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477">
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="match_parent"
+            android:layout_width="61dp"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="버튼1" />
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="match_parent"
+            android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="버튼2" />
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="match_parent"
+            android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="버튼3" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

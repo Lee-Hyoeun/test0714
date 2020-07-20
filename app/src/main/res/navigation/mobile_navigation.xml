@@ -40,4 +40,16 @@
         android:name="com.angie.test0714.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_newspeed"
+        android:name="com.angie.test0714.ui.newspeed.NewspeedFragment"
+        android:label="@string/menu_newspeed"
+        tools:layout="@layout/newspeed_fragment" />
+
+    <fragment
+        android:id="@+id/nav_timeline"
+        android:name="com.angie.test0714.ui.timeline.TimelineFragment"
+        android:label="@string/menu_timeline"
+        tools:layout="@layout/timeline_fragment" />
 </navigation>

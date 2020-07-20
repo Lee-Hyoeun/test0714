@@ -24,23 +24,23 @@
             android:layout_height="200dp"
             android:layout_marginTop="150dp"
             android:gravity="center_horizontal"
-            android:text="환영합니다.\n구글로그인에 성공하셨습니다!\n\n\n구글사용이 가능합니다.\nFirebase Test이용 가능합니다."
+            android:text="환영합니다.\n구글로그인에 성공하셨습니다!\n\n\n^^"
             android:textSize="25sp" />
 
-
-        <Button
-            android:id="@+id/btn_store"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="구글하러 가기" />
 
         <Button
             android:id="@+id/btn_fb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="firebasetest" />
+            android:text="햄버거" />
+
+        <Button
+            android:id="@+id/btn_store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="firestore" />
 
         <Button
             android:id="@+id/btn_logout"
