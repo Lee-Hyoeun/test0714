@@ -3,10 +3,12 @@ package com.angie.test0714;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.angie.test0714.ui.timeline.TimelineFragment;
 
 public class Timeline extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +20,8 @@ public class Timeline extends AppCompatActivity {
                     .commitNow();
         }
     }
+
+
 
 
 

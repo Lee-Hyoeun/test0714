@@ -12,22 +12,22 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Timeline"></activity>
         <activity android:name=".Newspeed" />
-        <activity android:name=".ui.newspeed.Newspeed" />
+        <activity android:name=".ui.newspeed.NewspeedFragment" />
         <activity android:name=".ui.timeline.TimelineFragment" />
         <activity android:name=".fbActivity" />
         <activity
             android:name=".NavidrawAcivity"
             android:label="@string/title_activity_navidraw_acivity"
             android:theme="@style/AppTheme.NoActionBar" >
-        <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
 
-        <category android:name="android.intent.category.LAUNCHER" />
-    </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
